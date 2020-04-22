@@ -9,11 +9,11 @@ toc_footers:
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
-  - introduction.md.erb
-  - authentication.md.erb
-  - users.md.erb
-  - seasons.md.erb
-  - errors.md.erb
+  - introduction.md
+  - authentication.md
+  - users.md
+  - seasons.md
+  - errors.md
 
 search: true
 ---
