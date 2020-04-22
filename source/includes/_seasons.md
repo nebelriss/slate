@@ -1,3 +1,0 @@
-# Seasons
-
-## Get All Seasons
