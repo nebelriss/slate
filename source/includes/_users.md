@@ -49,15 +49,16 @@ This endpoint retrieves all users.
 
 ### Returned Values
 
-| Parameter  | Type       | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| id         | Integer    | The unique id of the user.                |
-| status     | StatusType | The status of the user.                   |
-| name       | String     | The full name of the user.                |
-| password   | String     | The password of the user.                 |
-| username   | String     | The username of the user.                 |
-| version    | Integer    | How many times the user has been changed. |
-| created_at | Date       | The date when the user was created.       |
+| Parameter   | Type       | Description                               |
+| ----------- | ---------- | ----------------------------------------- |
+| id          | Integer    | The unique id of the user.                |
+| status      | StatusType | The status of the user.                   |
+| name        | String     | The full name of the user.                |
+| password    | String     | The password of the user.                 |
+| username    | String     | The username of the user.                 |
+| version     | Integer    | How many times the user has been changed. |
+| created_at  | Date       | The date when the user was created.       |
+| modified_at | Date       | The date when the user was modified.      |
 
 ## GET: Specific User
 
@@ -94,15 +95,16 @@ This endpoint retrieves a specific user.
 
 ### Returned Values
 
-| Parameter  | Type       | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| id         | Integer    | The unique id of the user.                |
-| status     | StatusType | The status of the user.                   |
-| name       | String     | The full name of the user.                |
-| password   | String     | The password of the user.                 |
-| username   | String     | The username of the user.                 |
-| version    | Integer    | How many times the user has been changed. |
-| created_at | Date       | The date when the user was created.       |
+| Parameter   | Type       | Description                               |
+| ----------- | ---------- | ----------------------------------------- |
+| id          | Integer    | The unique id of the user.                |
+| status      | StatusType | The status of the user.                   |
+| name        | String     | The full name of the user.                |
+| password    | String     | The password of the user.                 |
+| username    | String     | The username of the user.                 |
+| version     | Integer    | How many times the user has been changed. |
+| created_at  | Date       | The date when the user was created.       |
+| modified_at | Date       | The date when the user was modified.      |
 
 ## POST: Create a User
 
@@ -144,15 +146,16 @@ This endpoint creates a user.
 
 ### Returned Values
 
-| Parameter  | Type       | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| id         | Integer    | The unique id of the user.                |
-| status     | StatusType | The status of the user.                   |
-| name       | String     | The full name of the user.                |
-| password   | String     | The password of the user.                 |
-| username   | String     | The username of the user.                 |
-| version    | Integer    | How many times the user has been changed. |
-| created_at | Date       | The date when the user was created.       |
+| Parameter   | Type       | Description                               |
+| ----------- | ---------- | ----------------------------------------- |
+| id          | Integer    | The unique id of the user.                |
+| status      | StatusType | The status of the user.                   |
+| name        | String     | The full name of the user.                |
+| password    | String     | The password of the user.                 |
+| username    | String     | The username of the user.                 |
+| version     | Integer    | How many times the user has been changed. |
+| created_at  | Date       | The date when the user was created.       |
+| modified_at | Date       | The date when the user was modified.      |
 
 ## PATCH: Update a User
 
@@ -178,11 +181,17 @@ curl 'https://turnej.com/api/users'
 }
 ```
 
-This endpoint update a user.
+This endpoint updates a user.
 
 ### HTTP Request
 
-`PATCH http://turnej.com/users`
+`PATCH http://turnej.com/users/<ID>`
+
+### URL Parameters
+
+| Parameter | TYPE    | Description                    |
+| --------- | ------- | ------------------------------ |
+| ID        | Integer | The ID of the user to retrieve |
 
 ### Body Parameters
 
@@ -193,15 +202,16 @@ This endpoint update a user.
 
 ### Returned Values
 
-| Parameter  | Type       | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| id         | Integer    | The unique id of the user.                |
-| status     | StatusType | The status of the user.                   |
-| name       | String     | The full name of the user.                |
-| password   | String     | The password of the user.                 |
-| username   | String     | The username of the user.                 |
-| version    | Integer    | How many times the user has been changed. |
-| created_at | Date       | The date when the user was created.       |
+| Parameter   | Type       | Description                               |
+| ----------- | ---------- | ----------------------------------------- |
+| id          | Integer    | The unique id of the user.                |
+| status      | StatusType | The status of the user.                   |
+| name        | String     | The full name of the user.                |
+| password    | String     | The password of the user.                 |
+| username    | String     | The username of the user.                 |
+| version     | Integer    | How many times the user has been changed. |
+| created_at  | Date       | The date when the user was created.       |
+| modified_at | Date       | The date when the user was modified.      |
 
 ## DELTETE: Specific User
 
@@ -225,7 +235,7 @@ curl 'https://turnej.com/api/users/1'
 }
 ```
 
-This endpoint does delete a user.  
+This endpoint does deletes a user.  
 It does not delete it from the database. It only sets the status of the user to 'DELETED'.
 
 ### HTTP Request
@@ -240,12 +250,13 @@ It does not delete it from the database. It only sets the status of the user to 
 
 ### Returned Values
 
-| Parameter  | Type       | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| id         | Integer    | The unique id of the user.                |
-| status     | StatusType | The status of the user.                   |
-| name       | String     | The full name of the user.                |
-| password   | String     | The password of the user.                 |
-| username   | String     | The username of the user.                 |
-| version    | Integer    | How many times the user has been changed. |
-| created_at | Date       | The date when the user was created.       |
+| Parameter   | Type       | Description                               |
+| ----------- | ---------- | ----------------------------------------- |
+| id          | Integer    | The unique id of the user.                |
+| status      | StatusType | The status of the user.                   |
+| name        | String     | The full name of the user.                |
+| password    | String     | The password of the user.                 |
+| username    | String     | The username of the user.                 |
+| version     | Integer    | How many times the user has been changed. |
+| created_at  | Date       | The date when the user was created.       |
+| modified_at | Date       | The date when the user was modified.      |

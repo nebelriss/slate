@@ -9,11 +9,14 @@ toc_footers:
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
-  - introduction.md
-  - authentication.md
-  - users.md
-  - seasons.md
-  - errors.md
+  - introduction
+  - authentication
+  - users
+  - seasons
+  - games
+  - players
+  - tables
+  - errors
 
 search: true
 ---
