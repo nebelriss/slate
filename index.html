@@ -196,25 +196,22 @@
   color: #f92672;
 }
     </style>
-    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
-    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
-      <script src="javascripts/all.js"></script>
+    <link href="stylesheets/screen-a1ce949a.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print-bccf8c07.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all-c5541673.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;shell&quot;,&quot;ruby&quot;,&quot;python&quot;,&quot;javascript&quot;]">
+  <body class="index" data-languages="[&quot;shell&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
-        <img src="images/navbar.png" alt="Navbar" />
+        <img src="images/navbar-cad8cdcb.png" alt="Navbar" />
       </span>
     </a>
     <div class="toc-wrapper">
-      <img src="images/logo.png" class="logo" alt="Logo" />
+      <img src="images/logo-1e815a84.png" class="logo" alt="Logo" />
         <div class="lang-selector">
               <a href="#" data-language-name="shell">shell</a>
-              <a href="#" data-language-name="ruby">ruby</a>
-              <a href="#" data-language-name="python">python</a>
-              <a href="#" data-language-name="javascript">javascript</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -228,16 +225,84 @@
             <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
           </li>
           <li>
-            <a href="#kittens" class="toc-h1 toc-link" data-title="Kittens">Kittens</a>
+            <a href="#users" class="toc-h1 toc-link" data-title="Users">Users</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-kittens" class="toc-h2 toc-link" data-title="Get All Kittens">Get All Kittens</a>
+                    <a href="#get-all-users" class="toc-h2 toc-link" data-title="GET: All Users">GET: All Users</a>
                   </li>
                   <li>
-                    <a href="#get-a-specific-kitten" class="toc-h2 toc-link" data-title="Get a Specific Kitten">Get a Specific Kitten</a>
+                    <a href="#get-specific-user" class="toc-h2 toc-link" data-title="GET: Specific User">GET: Specific User</a>
                   </li>
                   <li>
-                    <a href="#delete-a-specific-kitten" class="toc-h2 toc-link" data-title="Delete a Specific Kitten">Delete a Specific Kitten</a>
+                    <a href="#post-create-a-user" class="toc-h2 toc-link" data-title="POST: Create a User">POST: Create a User</a>
+                  </li>
+                  <li>
+                    <a href="#patch-update-a-user" class="toc-h2 toc-link" data-title="PATCH: Update a User">PATCH: Update a User</a>
+                  </li>
+                  <li>
+                    <a href="#deltete-specific-user" class="toc-h2 toc-link" data-title="DELTETE: Specific User">DELTETE: Specific User</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#seasons" class="toc-h1 toc-link" data-title="Seasons">Seasons</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-all-seasons" class="toc-h2 toc-link" data-title="GET: All Seasons">GET: All Seasons</a>
+                  </li>
+                  <li>
+                    <a href="#get-specific-season" class="toc-h2 toc-link" data-title="GET: Specific Season">GET: Specific Season</a>
+                  </li>
+                  <li>
+                    <a href="#post-create-a-season" class="toc-h2 toc-link" data-title="POST: Create a Season">POST: Create a Season</a>
+                  </li>
+                  <li>
+                    <a href="#patch-create-a-season" class="toc-h2 toc-link" data-title="PATCH: Create a Season">PATCH: Create a Season</a>
+                  </li>
+                  <li>
+                    <a href="#deltete-specific-season" class="toc-h2 toc-link" data-title="DELTETE: Specific Season">DELTETE: Specific Season</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#games" class="toc-h1 toc-link" data-title="Games">Games</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-all-games" class="toc-h2 toc-link" data-title="GET: All Games">GET: All Games</a>
+                  </li>
+                  <li>
+                    <a href="#get-specific-game" class="toc-h2 toc-link" data-title="GET: Specific Game">GET: Specific Game</a>
+                  </li>
+                  <li>
+                    <a href="#patch-update-a-game" class="toc-h2 toc-link" data-title="PATCH: Update a Game">PATCH: Update a Game</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#players" class="toc-h1 toc-link" data-title="Players">Players</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-all-players" class="toc-h2 toc-link" data-title="GET: All Players">GET: All Players</a>
+                  </li>
+                  <li>
+                    <a href="#get-specific-player" class="toc-h2 toc-link" data-title="GET: Specific Player">GET: Specific Player</a>
+                  </li>
+                  <li>
+                    <a href="#post-create-a-player" class="toc-h2 toc-link" data-title="POST: Create a Player">POST: Create a Player</a>
+                  </li>
+                  <li>
+                    <a href="#patch-update-a-player" class="toc-h2 toc-link" data-title="PATCH: Update a Player">PATCH: Update a Player</a>
+                  </li>
+                  <li>
+                    <a href="#deltete-specific-player" class="toc-h2 toc-link" data-title="DELTETE: Specific Player">DELTETE: Specific Player</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#tables" class="toc-h1 toc-link" data-title="Tables">Tables</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-tables" class="toc-h2 toc-link" data-title="GET: Tables">GET: Tables</a>
                   </li>
               </ul>
           </li>
@@ -247,62 +312,19 @@
       </ul>
         <ul class="toc-footer">
             <li><a href='#'>Sign Up for a Developer Key</a></li>
-            <li><a href='https://github.com/lord/slate'>Documentation Powered by Slate</a></li>
+            <li><a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a></li>
         </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
-
-<p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
-
-<p>This example API documentation page was created with <a href="https://github.com/lord/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&#39;s documentation.</p>
+<p>Welcome to the Turnej API! You can use our API to access Turnej API endpoints.</p>
 <h1 id='authentication'>Authentication</h1>
 <blockquote>
 <p>To authorize, use this code:</p>
 </blockquote>
-<pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
-</blockquote>
-
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
-
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
-
-<p><code>Authorization: meowmeowmeow</code></p>
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
+<pre class="highlight javascript tab-javascript"><code></code></pre><h1 id='users'>Users</h1><h2 id='get-all-users'>GET: All Users</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/users"</span>
 </code></pre>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
@@ -310,23 +332,29 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 <pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
   </span><span class="p">{</span><span class="w">
     </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First User"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"first-user"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:36:03.988Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="p">{</span><span class="w">
     </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Second User"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"second"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T17:09:38.593Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">]</span><span class="w">
 </span></code></pre>
-<p>This endpoint retrieves all kittens.</p>
+<p>This endpoint retrieves all users.</p>
 <h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/kittens</code></p>
+<p><code>GET https://turnej.com/api/users</code></p>
 <h3 id='query-parameters'>Query Parameters</h3>
 <table><thead>
 <tr>
@@ -336,52 +364,373 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 </tr>
 </thead><tbody>
 <tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
+<td>active</td>
+<td>true</td>
+<td>If set to true, the result will show users with status &#39;ACTIVE.</td>
 </tr>
 <tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
+<td>inactive</td>
+<td>false</td>
+<td>If set to true, the result will show users with status &#39;INACTIVE.</td>
+</tr>
+<tr>
+<td>deleted</td>
+<td>false</td>
+<td>If set to true, the result will show users with status &#39;DELETED.</td>
 </tr>
 </tbody></table>
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<h3 id='returned-values'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the user.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the user.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user.</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>The password of the user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the user has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the user was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the user was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='get-specific-user'>GET: Specific User</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/users/1"</span>
 </code></pre>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
 </blockquote>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First User"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"first-user"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:36:03.988Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
-<p>This endpoint retrieves a specific kitten.</p>
-
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
+<p>This endpoint retrieves a specific user.</p>
 <h3 id='http-request-2'>HTTP Request</h3>
-<p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
+<p><code>GET http://turnej.com/users/&lt;ID&gt;</code></p>
 <h3 id='url-parameters'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the user to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-2'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the user.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the user.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user.</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>The password of the user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the user has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the user was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the user was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='post-create-a-user'>POST: Create a User</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/users'</span>
+  -X POST
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"name": "User Name", "username": "username", "password": "password"}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First User"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"first-user"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:36:03.988Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint creates a user.</p>
+<h3 id='http-request-3'>HTTP Request</h3>
+<p><code>POST http://turnej.com/users</code></p>
+<h3 id='body-parameters'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>Hash of the password from the user</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-3'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the user.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the user.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user.</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>The password of the user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the user has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the user was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the user was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='patch-update-a-user'>PATCH: Update a User</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/users'</span>
+  -X PATCH
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"username": "username", "password": "password"}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First User"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"first-user"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:36:03.988Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint updates a user.</p>
+<h3 id='http-request-4'>HTTP Request</h3>
+<p><code>PATCH http://turnej.com/users/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-2'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the user to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='body-parameters-2'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>Hash of the password from the user</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-4'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the user.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the user.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user.</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>The password of the user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the user has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the user was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the user was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='deltete-specific-user'>DELTETE: Specific User</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/users/1'</span>
+  -X DELETE
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DELETED"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First User"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"first-user"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:36:03.988Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint does deletes a user.<br>
+It does not delete it from the database. It only sets the status of the user to &#39;DELETED&#39;.</p>
+<h3 id='http-request-5'>HTTP Request</h3>
+<p><code>DELETE https://turnej.com/users/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-3'>URL Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
@@ -390,36 +739,406 @@ Remember — a happy kitten is an authenticated kitten!
 </thead><tbody>
 <tr>
 <td>ID</td>
-<td>The ID of the kitten to retrieve</td>
+<td>The ID of the user to delete</td>
 </tr>
 </tbody></table>
-<h2 id='delete-a-specific-kitten'>Delete a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -X DELETE
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<h3 id='returned-values-5'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the user.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the user.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the user.</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>The password of the user.</td>
+</tr>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the user.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the user has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the user was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the user was modified.</td>
+</tr>
+</tbody></table>
+<h1 id='seasons'>Seasons</h1><h2 id='get-all-seasons'>GET: All Seasons</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/seasons"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 1"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some Area"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 2"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some Area"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves all seasons.</p>
+<h3 id='http-request'>HTTP Request</h3>
+<p><code>GET https://turnej.com/api/seasons</code></p>
+<h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>user</td>
+<td></td>
+<td>If set it gets all the seasons for a specific user</td>
+</tr>
+<tr>
+<td>active</td>
+<td>true</td>
+<td>If set to true, the result will show seasons with status &#39;ACTIVE.</td>
+</tr>
+<tr>
+<td>inactive</td>
+<td>false</td>
+<td>If set to true, the result will show seasons with status &#39;INACTIVE.</td>
+</tr>
+<tr>
+<td>deleted</td>
+<td>false</td>
+<td>If set to true, the result will show seasons with status &#39;DELETED.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the season.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the season.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the season has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the season was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the season was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='get-specific-season'>GET: Specific Season</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/seasons/1"</span>
 </code></pre>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
 </blockquote>
 <pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"deleted"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">":("</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 1"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some Area"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
-<p>This endpoint deletes a specific kitten.</p>
+<p>This endpoint retrieves a specific season.</p>
+<h3 id='http-request-2'>HTTP Request</h3>
+<p><code>GET https://turnej.com/api/seasons/&lt;ID&gt;</code></p>
+<h3 id='url-parameters'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the season to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='returned-value'>Returned Value</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the season.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the season.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the season has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the season was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the season was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='post-create-a-season'>POST: Create a Season</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/seasons'</span>
+  -X POST
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"name": "Season name", "location": "Some location", "event_date": "DATE"}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 1"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some Area"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint creates a season.</p>
 <h3 id='http-request-3'>HTTP Request</h3>
-<p><code>DELETE http://example.com/kittens/&lt;ID&gt;</code></p>
+<p><code>POST https://turnej.com/api/seasons</code></p>
+<h3 id='body-parameters'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-2'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the season.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the season.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the season has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the season was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the season was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='patch-create-a-season'>PATCH: Create a Season</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/seasons'</span>
+  -X PATCH
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"name": "Season 2", "location": "Some other location", "event_date": "DATE", "completed": true, "locked": true}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 2"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some other location"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint updates a season.</p>
+<h3 id='http-request-4'>HTTP Request</h3>
+<p><code>POST https://turnej.com/api/seasons/&lt;ID&gt;</code></p>
 <h3 id='url-parameters-2'>URL Parameters</h3>
 <table><thead>
 <tr>
@@ -429,15 +1148,968 @@ Remember — a happy kitten is an authenticated kitten!
 </thead><tbody>
 <tr>
 <td>ID</td>
-<td>The ID of the kitten to delete</td>
+<td>The ID of the season to delete</td>
+</tr>
+</tbody></table>
+<h3 id='body-parameters-2'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-3'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the season.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the season.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the season has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the season was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the season was modified.</td>
+</tr>
+</tbody></table>
+<h2 id='deltete-specific-season'>DELTETE: Specific Season</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/seasons/1'</span>
+  -X DELETE
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DELETED"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Season 1"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"event_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1970-01-19T08:56:37.337Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Some location"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"completed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"locked"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T15:42:17.058Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint does deletes a season.<br>
+It does not delete it from the database. It only sets the status of the season to &#39;DELETED&#39;.</p>
+<h3 id='http-request-5'>HTTP Request</h3>
+<p><code>DELETE https://turnej.com/seasons/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-3'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>The ID of the season to delete</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-4'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the season.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the season.</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the season.</td>
+</tr>
+<tr>
+<td>event_date</td>
+<td>Date</td>
+<td>The date of the event.</td>
+</tr>
+<tr>
+<td>location</td>
+<td>String</td>
+<td>The name of the location.</td>
+</tr>
+<tr>
+<td>completed</td>
+<td>Boolean</td>
+<td>If true the season is completed. This means that all games have been also completed.</td>
+</tr>
+<tr>
+<td>locked</td>
+<td>Boolean</td>
+<td>If the season is locked, then no changes can be made to it.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the season has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the season was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the season was modified.</td>
+</tr>
+</tbody></table>
+<h1 id='games'>Games</h1><h2 id='get-all-games'>GET: All Games</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/games"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"season_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_home_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_home_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_away_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_away_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:06:04.112Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:54:38.015Z"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"season_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_home_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_home_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_away_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"player_away_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:55:04.839Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves all games.</p>
+<h3 id='http-request'>HTTP Request</h3>
+<p><code>GET https://turnej.com/api/games</code></p>
+<h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>season</td>
+<td>-</td>
+<td>The id of the seasons to filter the games</td>
+</tr>
+<tr>
+<td>groupstyle</td>
+<td>falt</td>
+<td>The style rounds. (structured, flat)</td>
+</tr>
+<tr>
+<td>active</td>
+<td>true</td>
+<td>If set to true, the result will show games with status &#39;ACTIVE.</td>
+</tr>
+<tr>
+<td>inactive</td>
+<td>false</td>
+<td>If set to true, the result will show games with status &#39;INACTIVE.</td>
+</tr>
+<tr>
+<td>deleted</td>
+<td>false</td>
+<td>If set to true, the result will show games with status &#39;DELETED.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the game.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the game.</td>
+</tr>
+<tr>
+<td>season_id</td>
+<td>Integer</td>
+<td>The id of the season</td>
+</tr>
+<tr>
+<td>player_home_id</td>
+<td>Integer</td>
+<td>The id of the playes who playes at home.</td>
+</tr>
+<tr>
+<td>player_home_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at home.</td>
+</tr>
+<tr>
+<td>player_away_id</td>
+<td>Integer</td>
+<td>The id of the game who playes at away.</td>
+</tr>
+<tr>
+<td>player_away_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at away.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the game has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the game was created.</td>
+</tr>
+</tbody></table>
+<h2 id='get-specific-game'>GET: Specific Game</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/games/1"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"season_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_home_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_home_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_away_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_away_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:06:04.112Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:54:38.015Z"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves a specific game.</p>
+<h3 id='http-request-2'>HTTP Request</h3>
+<p><code>GET http://turnej.com/games/&lt;ID&gt;</code></p>
+<h3 id='url-parameters'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the game to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-2'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the game.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the game.</td>
+</tr>
+<tr>
+<td>season_id</td>
+<td>Integer</td>
+<td>The id of the season</td>
+</tr>
+<tr>
+<td>player_home_id</td>
+<td>Integer</td>
+<td>The id of the playes who playes at home.</td>
+</tr>
+<tr>
+<td>player_home_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at home.</td>
+</tr>
+<tr>
+<td>player_away_id</td>
+<td>Integer</td>
+<td>The id of the game who playes at away.</td>
+</tr>
+<tr>
+<td>player_away_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at away.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the game has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the game was created.</td>
+</tr>
+</tbody></table>
+<h2 id='patch-update-a-game'>PATCH: Update a Game</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/games'</span>
+  -X PATCH
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"player_home_goals": 0, "player_away_goals": 2}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"season_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_home_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_home_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_away_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"player_away_goals"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:06:04.112Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T14:54:38.015Z"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint updates a game.</p>
+<h3 id='http-request-3'>HTTP Request</h3>
+<p><code>PATCH http://turnej.com/games/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-2'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the game to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='body-parameters'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>player_home_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at home.</td>
+</tr>
+<tr>
+<td>player_away_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at away.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-3'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the game.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the game.</td>
+</tr>
+<tr>
+<td>season_id</td>
+<td>Integer</td>
+<td>The id of the season</td>
+</tr>
+<tr>
+<td>player_home_id</td>
+<td>Integer</td>
+<td>The id of the playes who playes at home.</td>
+</tr>
+<tr>
+<td>player_home_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at home.</td>
+</tr>
+<tr>
+<td>player_away_id</td>
+<td>Integer</td>
+<td>The id of the game who playes at away.</td>
+</tr>
+<tr>
+<td>player_away_goals</td>
+<td>Integer</td>
+<td>The goal count of the player who playes at away.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the game has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the game was created.</td>
+</tr>
+</tbody></table>
+<h1 id='players'>Players</h1><h2 id='get-all-players'>GET: All Players</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/players"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player_one"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:55:07.326Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player two"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:39:59.769Z"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves all players.</p>
+<h3 id='http-request'>HTTP Request</h3>
+<p><code>GET https://turnej.com/api/players</code></p>
+<h3 id='query-parameters'>Query Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>active</td>
+<td>true</td>
+<td>If set to true, the result will show player with status &#39;ACTIVE.</td>
+</tr>
+<tr>
+<td>inactive</td>
+<td>false</td>
+<td>If set to true, the result will show player with status &#39;INACTIVE.</td>
+</tr>
+<tr>
+<td>deleted</td>
+<td>false</td>
+<td>If set to true, the result will show player with status &#39;DELETED.</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the player.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the player.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>Integer</td>
+<td>The ID of the assosiated user</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the player has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the player was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the player was last time changed</td>
+</tr>
+</tbody></table>
+<h2 id='get-specific-player'>GET: Specific Player</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/players/1"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player_one"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:55:07.326Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint retrieves a specific player.</p>
+<h3 id='http-request-2'>HTTP Request</h3>
+<p><code>GET http://turnej.com/players/&lt;ID&gt;</code></p>
+<h3 id='url-parameters'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>TYPE</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>Integer</td>
+<td>The ID of the player to retrieve</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-2'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the player.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the player.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>Integer</td>
+<td>The ID of the assosiated user</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the player has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the player was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the player was last time changed</td>
+</tr>
+</tbody></table>
+<h2 id='post-create-a-player'>POST: Create a Player</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/players'</span>
+  -X POST
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"name": "player_one"}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player_one"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:55:07.326Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint creates a player.</p>
+<h3 id='http-request-3'>HTTP Request</h3>
+<p><code>POST http://turnej.com/players</code></p>
+<h3 id='body-parameters'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-3'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the player.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the player.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>Integer</td>
+<td>The ID of the assosiated user</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the player has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the player was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the player was last time changed</td>
+</tr>
+</tbody></table>
+<h2 id='patch-update-a-player'>PATCH: Update a Player</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/players'</span>
+  -X PATCH
+  -H <span class="s1">'Content-Type: application/json'</span>
+  -d <span class="s1">'{"username": "player_two"}'</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player_two"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:55:07.326Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint updates a player.</p>
+<h3 id='http-request-4'>HTTP Request</h3>
+<p><code>PATCH http://turnej.com/players/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-2'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>The ID of the player to delete</td>
+</tr>
+</tbody></table>
+<h3 id='body-parameters-2'>Body Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>username</td>
+<td>String</td>
+<td>The username of the player</td>
+</tr>
+<tr>
+<td>password</td>
+<td>String</td>
+<td>Hash of the password from the player</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-4'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the player.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the player.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>Integer</td>
+<td>The ID of the assosiated user</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the player has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the player was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the player was last time changed</td>
+</tr>
+</tbody></table>
+<h2 id='deltete-specific-player'>DELTETE: Specific Player</h2><pre class="highlight shell tab-shell"><code>curl <span class="s1">'https://turnej.com/api/players/1'</span>
+  -X DELETE
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACTIVE"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Player_one"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"version"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-04-20T11:55:07.326Z"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"modified_at"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint does deletes a player.<br>
+It does not delete it from the database. It only sets the status of the player to &#39;DELETED&#39;.</p>
+<h3 id='http-request-5'>HTTP Request</h3>
+<p><code>DELETE https://turnej.com/players/&lt;ID&gt;</code></p>
+<h3 id='url-parameters-3'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ID</td>
+<td>The ID of the player to delete</td>
+</tr>
+</tbody></table>
+<h3 id='returned-values-5'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the player.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>StatusType</td>
+<td>The status of the player.</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>Integer</td>
+<td>The ID of the assosiated user</td>
+</tr>
+<tr>
+<td>name</td>
+<td>String</td>
+<td>The full name of the player.</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Integer</td>
+<td>How many times the player has been changed.</td>
+</tr>
+<tr>
+<td>created_at</td>
+<td>Date</td>
+<td>The date when the player was created.</td>
+</tr>
+<tr>
+<td>modified_at</td>
+<td>Date</td>
+<td>The date when the player was last time changed</td>
+</tr>
+</tbody></table>
+<h1 id='tables'>Tables</h1><h2 id='get-tables'>GET: Tables</h2><pre class="highlight shell tab-shell"><code>curl <span class="s2">"https://turnej.com/api/tables"</span>
+</code></pre>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+
+<p>This endpoint retrieves all tables.</p>
+<h3 id='http-request'>HTTP Request</h3>
+<p><code>GET https://turnej.com/api/tables</code></p>
+<h3 id='returned-values'>Returned Values</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>Integer</td>
+<td>The unique id of the tables.</td>
 </tr>
 </tbody></table>
 <h1 id='errors'>Errors</h1>
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
-</aside>
-
-<p>The Kittn API uses the following error codes:</p>
+<p>The Turnej API uses the following error codes:</p>
 
 <table><thead>
 <tr>
@@ -455,15 +2127,15 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
 </tr>
 <tr>
 <td>403</td>
-<td>Forbidden -- The kitten requested is hidden for administrators only.</td>
+<td>Forbidden -- The data requested is hidden for administrators only.</td>
 </tr>
 <tr>
 <td>404</td>
-<td>Not Found -- The specified kitten could not be found.</td>
+<td>Not Found -- The specified data could not be found.</td>
 </tr>
 <tr>
 <td>405</td>
-<td>Method Not Allowed -- You tried to access a kitten with an invalid method.</td>
+<td>Method Not Allowed -- You tried to access a data with an invalid method.</td>
 </tr>
 <tr>
 <td>406</td>
@@ -471,7 +2143,7 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
 </tr>
 <tr>
 <td>410</td>
-<td>Gone -- The kitten requested has been removed from our servers.</td>
+<td>Gone -- The data requested has been removed from our servers.</td>
 </tr>
 <tr>
 <td>418</td>
@@ -479,7 +2151,7 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
 </tr>
 <tr>
 <td>429</td>
-<td>Too Many Requests -- You&#39;re requesting too many kittens! Slow down!</td>
+<td>Too Many Requests -- You&#39;re requesting too many data!</td>
 </tr>
 <tr>
 <td>500</td>
@@ -495,9 +2167,6 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
       <div class="dark-box">
           <div class="lang-selector">
                 <a href="#" data-language-name="shell">shell</a>
-                <a href="#" data-language-name="ruby">ruby</a>
-                <a href="#" data-language-name="python">python</a>
-                <a href="#" data-language-name="javascript">javascript</a>
           </div>
       </div>
     </div>
