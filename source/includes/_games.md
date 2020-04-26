@@ -119,7 +119,7 @@ This endpoint retrieves a specific game.
 ## PATCH: Update a Game
 
 ```shell
-curl 'https://turnej.com/api/games'
+curl 'https://turnej.com/api/games/1'
   -X PATCH
   -H 'Content-Type: application/json'
   -d '{"player_home_goals": 0, "player_away_goals": 2}'

@@ -151,7 +151,7 @@ This endpoint creates a player.
 ## PATCH: Update a Player
 
 ```shell
-curl 'https://turnej.com/api/players'
+curl 'https://turnej.com/api/players/1'
   -X PATCH
   -H 'Content-Type: application/json'
   -d '{"username": "player_two"}'

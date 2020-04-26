@@ -160,7 +160,7 @@ This endpoint creates a user.
 ## PATCH: Update a User
 
 ```shell
-curl 'https://turnej.com/api/users'
+curl 'https://turnej.com/api/users/1'
   -X PATCH
   -H 'Content-Type: application/json'
   -d '{"username": "username", "password": "password"}'

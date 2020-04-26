@@ -175,7 +175,7 @@ This endpoint creates a season.
 ## PATCH: Create a Season
 
 ```shell
-curl 'https://turnej.com/api/seasons'
+curl 'https://turnej.com/api/seasons/1'
   -X PATCH
   -H 'Content-Type: application/json'
   -d '{"name": "Season 2", "location": "Some other location", "event_date": "DATE", "completed": true, "locked": true}'
